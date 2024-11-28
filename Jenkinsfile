@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Testing') {
       steps {
-        sh 'Test/api.robot'
+        sh 'Tests/api.robot'
       }
     }
 
