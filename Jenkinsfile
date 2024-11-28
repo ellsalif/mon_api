@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Testing') {
       steps {
-        sh 'Tests/api.robot'
+        bat 'Tests/api.robot'
       }
     }
 
