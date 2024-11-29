@@ -7,6 +7,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/ellsalif/api_auto.git'
             }
         }
+  }
 
     stage('Setup Environment') {
             steps {
