@@ -8,18 +8,6 @@ pipeline {
             }
         }
   }
-
-    stage('Setup Environment') {
-            steps {
-                script {
-                    bat
-                    python3 -m venv
-                    pip install --upgrade pip
-                    pip install robotframework
-                }
-            }
-        }
-        
   stages {
     stage('Testing') {
       steps {
