@@ -12,8 +12,7 @@ pipeline {
             steps {
                 script {
                     bat
-                    python3 -m venv venv
-                    .venv/bin/activate
+                    python3 -m venv
                     pip install --upgrade pip
                     pip install robotframework
                 }
