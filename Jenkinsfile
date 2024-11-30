@@ -10,11 +10,9 @@ pipeline {
     stage('Setup Environment') {
             steps {
                     bat  'python -m pip install --upgrade pip'
-            }
-
-      steps {
                     bat  ' pip install robotframework'           
-            }
+             }
+      
         }
 
         
