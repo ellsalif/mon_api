@@ -1,4 +1,4 @@
-*** Setting ***
+*** Settings ***
 Resource  ../Resources/signupBack.robot
 Resource  ../Resources/variable.robot
 Resource  ../Resources/loginBack.robot

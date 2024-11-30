@@ -11,12 +11,15 @@ pipeline {
             steps {
               script {
                     bat  'python -m pip install --upgrade pip'
-                    bat  ' pip install robotframework'  
+                    bat  'pip install robotframework'
+                    bat  'pip install robotframework-seleniumlibrary'
+                    bat  'pip install robotframework-requests'
+                    bat 'pip install robotframework-databaselibrary'
+
+
               }
              }
         }
-
-        
 
     stage('Testing') {
       steps {

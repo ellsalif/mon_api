@@ -1,4 +1,4 @@
-*** Setting ***
+*** Settings ***
 Library  SeleniumLibrary
 Library  RequestsLibrary
 Library  DatabaseLibrary
